@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-gray: #3e3e3e;
+    --color-white: #fff;
+    --color-light-gray: #DCDCDC;
+    --color-yellow: #FAD34F;
+}
+
+h1 {
+    position: absolute;
+    width: 563px;
+    height: 58px;
+    left: 147px;
+    top: 179px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 130%;
+    color: var(--color-gray);
+}   
+
+.inputs {
+    width: 1440px;
+    overflow: hidden;
+}
+
+input {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-light-gray);
+    border-radius: 10px;
+    padding: 0 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 188%;
+}
+
+#name {
+    position: absolute;
+    width: 557px;
+    height: 93px;
+    left: 150px;
+    top: 267px;
+}
+
+#email {
+    position: absolute;
+    width: 557px;
+    height: 93px;
+    left: 150px;
+    top: 368px;
+}
+
+#message {
+    position: absolute;
+    width: 557px;
+    height: 189px;
+    left: 150px;
+    top: 469px;
+}
+
+button {
+    position: absolute;
+    width: 218px;
+    height: 73px;
+    left: 150px;
+    top: 681px;
+    background: var(--color-yellow);
+    border-radius: 500px;
+    border: transparent;
+    color: var(--color-white);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+img[alt="ss"] {
+    position: absolute;
+    width: 126.76px;
+    height: 16.09px;
+    left: 343px;
+    top: 1007px;
+}
+
+img[alt="globe"] {
+    position: absolute;
+    left: 1077px;
+    top: -28px;
+}
+
+.yellow1 {
+    position: absolute;
+    left: 2.01%;
+    right: 91.85%;
+    top: 6.55%;
+    bottom: 85.84%;
+}
+
+.yellow2 {
+    position: absolute;
+    width: 127px;
+    height: 127px;
+    left: 1028px;
+    top: 516px;
+}
+
+.yellow3 {
+    position: absolute;
+    left: 70.70%;
+    right: -0.3%;
+    top: 86.3%;
+    bottom: 1.09%;
+}
+
+.red1 {
+    position: absolute;
+    left: 44.9%;
+    right: 21.24%;
+    top: 49.47%;
+    bottom: 32.09%;
+}
+
+.red2 {
+    position: absolute;
+    left: 0.02%;
+    right: 73.12%;
+    top: 78.9%;
+    bottom: 2.66%;
+}
+
+.green {
+    position: absolute;
+    width: 78.46px;
+    height: 97px;
+    left: 1492.46px;
+    top: 900px;
+}
